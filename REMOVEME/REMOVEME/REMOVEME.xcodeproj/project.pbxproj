@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1679889E29F46C3700D4D29E /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1679889D29F46C3700D4D29E /* SignInView.swift */; };
+		167988A029F46C7000D4D29E /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1679889F29F46C7000D4D29E /* StarsView.swift */; };
+		167988A229F46C9700D4D29E /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167988A129F46C9700D4D29E /* RestaurantListView.swift */; };
+		167988A629F46D3900D4D29E /* WriteReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167988A529F46D3900D4D29E /* WriteReviewView.swift */; };
+		167988A829F476FC00D4D29E /* Restaurant+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167988A729F476FC00D4D29E /* Restaurant+Extension.swift */; };
+		167988AA29F4772300D4D29E /* Firestore+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167988A929F4772300D4D29E /* Firestore+Extension.swift */; };
+		167988AC29F4777800D4D29E /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167988AB29F4777800D4D29E /* ReviewView.swift */; };
+		167988AE29F4797100D4D29E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 167988AD29F4797100D4D29E /* GoogleService-Info.plist */; };
+		1686E0FA29F4662800672D10 /* REMOVEMEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686E0F929F4662800672D10 /* REMOVEMEApp.swift */; };
+		1686E0FC29F4662800672D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686E0FB29F4662800672D10 /* ContentView.swift */; };
+		1686E0FE29F4662900672D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1686E0FD29F4662900672D10 /* Assets.xcassets */; };
+		1686E10129F4662900672D10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1686E10029F4662900672D10 /* Preview Assets.xcassets */; };
+		1686E10829F4667800672D10 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686E10729F4667800672D10 /* Restaurant.swift */; };
+		1686E10A29F4669400672D10 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686E10929F4669400672D10 /* Review.swift */; };
+		1686E10C29F466C900672D10 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686E10B29F466C900672D10 /* RestaurantViewModel.swift */; };
+		1686E10E29F466E500672D10 /* RestaurantListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686E10D29F466E500672D10 /* RestaurantListViewModel.swift */; };
+		1686E11029F466F600672D10 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686E10F29F466F600672D10 /* FilterView.swift */; };
+		1686E11229F4670300672D10 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686E11129F4670300672D10 /* PriceView.swift */; };
+		1686E11429F4671800672D10 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686E11329F4671800672D10 /* RestaurantDetailView.swift */; };
+		1686E11629F4672F00672D10 /* RestaurantHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686E11529F4672F00672D10 /* RestaurantHeaderView.swift */; };
+		1686E11829F4674500672D10 /* RestaurantImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686E11729F4674500672D10 /* RestaurantImageView.swift */; };
+		1686E11A29F4675500672D10 /* RestaurantItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1686E11929F4675500672D10 /* RestaurantItemView.swift */; };
+		1686E11F29F4691500672D10 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1686E11E29F4691500672D10 /* FirebaseAuth */; };
+		1686E12129F4691500672D10 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1686E12029F4691500672D10 /* FirebaseFirestore */; };
+		1686E12329F4691500672D10 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1686E12229F4691500672D10 /* FirebaseFirestoreSwift */; };
+		1686E12629F46ADF00672D10 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1686E12529F46ADF00672D10 /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1679889D29F46C3700D4D29E /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInView.swift; path = ../SignInView.swift; sourceTree = "<group>"; };
+		1679889F29F46C7000D4D29E /* StarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsView.swift; sourceTree = "<group>"; };
+		167988A129F46C9700D4D29E /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
+		167988A529F46D3900D4D29E /* WriteReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteReviewView.swift; sourceTree = "<group>"; };
+		167988A729F476FC00D4D29E /* Restaurant+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Restaurant+Extension.swift"; sourceTree = "<group>"; };
+		167988A929F4772300D4D29E /* Firestore+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firestore+Extension.swift"; sourceTree = "<group>"; };
+		167988AB29F4777800D4D29E /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		167988AD29F4797100D4D29E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1686E0F629F4662800672D10 /* REMOVEME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REMOVEME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1686E0F929F4662800672D10 /* REMOVEMEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REMOVEMEApp.swift; sourceTree = "<group>"; };
+		1686E0FB29F4662800672D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1686E0FD29F4662900672D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1686E10029F4662900672D10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1686E10729F4667800672D10 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		1686E10929F4669400672D10 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		1686E10B29F466C900672D10 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
+		1686E10D29F466E500672D10 /* RestaurantListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewModel.swift; sourceTree = "<group>"; };
+		1686E10F29F466F600672D10 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		1686E11129F4670300672D10 /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
+		1686E11329F4671800672D10 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		1686E11529F4672F00672D10 /* RestaurantHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantHeaderView.swift; sourceTree = "<group>"; };
+		1686E11729F4674500672D10 /* RestaurantImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantImageView.swift; sourceTree = "<group>"; };
+		1686E11929F4675500672D10 /* RestaurantItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1686E0F329F4662800672D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1686E12629F46ADF00672D10 /* SDWebImageSwiftUI in Frameworks */,
+				1686E11F29F4691500672D10 /* FirebaseAuth in Frameworks */,
+				1686E12129F4691500672D10 /* FirebaseFirestore in Frameworks */,
+				1686E12329F4691500672D10 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1686E0ED29F4662700672D10 = {
+			isa = PBXGroup;
+			children = (
+				1686E0F829F4662800672D10 /* REMOVEME */,
+				1686E0F729F4662800672D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1686E0F729F4662800672D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1686E0F629F4662800672D10 /* REMOVEME.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1686E0F829F4662800672D10 /* REMOVEME */ = {
+			isa = PBXGroup;
+			children = (
+				1686E0F929F4662800672D10 /* REMOVEMEApp.swift */,
+				1686E0FB29F4662800672D10 /* ContentView.swift */,
+				1686E0FD29F4662900672D10 /* Assets.xcassets */,
+				1686E10729F4667800672D10 /* Restaurant.swift */,
+				167988A929F4772300D4D29E /* Firestore+Extension.swift */,
+				1679889D29F46C3700D4D29E /* SignInView.swift */,
+				1686E10929F4669400672D10 /* Review.swift */,
+				1686E10B29F466C900672D10 /* RestaurantViewModel.swift */,
+				1686E10F29F466F600672D10 /* FilterView.swift */,
+				1686E10D29F466E500672D10 /* RestaurantListViewModel.swift */,
+				1679889F29F46C7000D4D29E /* StarsView.swift */,
+				167988AD29F4797100D4D29E /* GoogleService-Info.plist */,
+				167988AB29F4777800D4D29E /* ReviewView.swift */,
+				167988A529F46D3900D4D29E /* WriteReviewView.swift */,
+				167988A729F476FC00D4D29E /* Restaurant+Extension.swift */,
+				1686E11129F4670300672D10 /* PriceView.swift */,
+				1686E11329F4671800672D10 /* RestaurantDetailView.swift */,
+				1686E11529F4672F00672D10 /* RestaurantHeaderView.swift */,
+				167988A129F46C9700D4D29E /* RestaurantListView.swift */,
+				1686E11729F4674500672D10 /* RestaurantImageView.swift */,
+				1686E11929F4675500672D10 /* RestaurantItemView.swift */,
+				1686E0FF29F4662900672D10 /* Preview Content */,
+			);
+			path = REMOVEME;
+			sourceTree = "<group>";
+		};
+		1686E0FF29F4662900672D10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1686E10029F4662900672D10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1686E0F529F4662800672D10 /* REMOVEME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1686E10429F4662900672D10 /* Build configuration list for PBXNativeTarget "REMOVEME" */;
+			buildPhases = (
+				1686E0F229F4662800672D10 /* Sources */,
+				1686E0F329F4662800672D10 /* Frameworks */,
+				1686E0F429F4662800672D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REMOVEME;
+			packageProductDependencies = (
+				1686E11E29F4691500672D10 /* FirebaseAuth */,
+				1686E12029F4691500672D10 /* FirebaseFirestore */,
+				1686E12229F4691500672D10 /* FirebaseFirestoreSwift */,
+				1686E12529F46ADF00672D10 /* SDWebImageSwiftUI */,
+			);
+			productName = REMOVEME;
+			productReference = 1686E0F629F4662800672D10 /* REMOVEME.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1686E0EE29F4662700672D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1686E0F529F4662800672D10 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 1686E0F129F4662700672D10 /* Build configuration list for PBXProject "REMOVEME" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1686E0ED29F4662700672D10;
+			packageReferences = (
+				1686E11D29F4691400672D10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				1686E12429F46ADF00672D10 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 1686E0F729F4662800672D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1686E0F529F4662800672D10 /* REMOVEME */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1686E0F429F4662800672D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1686E10129F4662900672D10 /* Preview Assets.xcassets in Resources */,
+				1686E0FE29F4662900672D10 /* Assets.xcassets in Resources */,
+				167988AE29F4797100D4D29E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1686E0F229F4662800672D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1686E11229F4670300672D10 /* PriceView.swift in Sources */,
+				1686E11029F466F600672D10 /* FilterView.swift in Sources */,
+				167988AC29F4777800D4D29E /* ReviewView.swift in Sources */,
+				167988A829F476FC00D4D29E /* Restaurant+Extension.swift in Sources */,
+				167988AA29F4772300D4D29E /* Firestore+Extension.swift in Sources */,
+				1686E0FC29F4662800672D10 /* ContentView.swift in Sources */,
+				167988A229F46C9700D4D29E /* RestaurantListView.swift in Sources */,
+				1686E10E29F466E500672D10 /* RestaurantListViewModel.swift in Sources */,
+				1686E11829F4674500672D10 /* RestaurantImageView.swift in Sources */,
+				1686E10A29F4669400672D10 /* Review.swift in Sources */,
+				167988A029F46C7000D4D29E /* StarsView.swift in Sources */,
+				167988A629F46D3900D4D29E /* WriteReviewView.swift in Sources */,
+				1686E11429F4671800672D10 /* RestaurantDetailView.swift in Sources */,
+				1686E10C29F466C900672D10 /* RestaurantViewModel.swift in Sources */,
+				1686E0FA29F4662800672D10 /* REMOVEMEApp.swift in Sources */,
+				1686E11629F4672F00672D10 /* RestaurantHeaderView.swift in Sources */,
+				1686E11A29F4675500672D10 /* RestaurantItemView.swift in Sources */,
+				1686E10829F4667800672D10 /* Restaurant.swift in Sources */,
+				1679889E29F46C3700D4D29E /* SignInView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1686E10229F4662900672D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1686E10329F4662900672D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1686E10529F4662900672D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"REMOVEME/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jonathancarlson.REMOVEME;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1686E10629F4662900672D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"REMOVEME/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jonathancarlson.REMOVEME;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1686E0F129F4662700672D10 /* Build configuration list for PBXProject "REMOVEME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1686E10229F4662900672D10 /* Debug */,
+				1686E10329F4662900672D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1686E10429F4662900672D10 /* Build configuration list for PBXNativeTarget "REMOVEME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1686E10529F4662900672D10 /* Debug */,
+				1686E10629F4662900672D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1686E11D29F4691400672D10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		1686E12429F46ADF00672D10 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1686E11E29F4691500672D10 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1686E11D29F4691400672D10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1686E12029F4691500672D10 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1686E11D29F4691400672D10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1686E12229F4691500672D10 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1686E11D29F4691400672D10 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		1686E12529F46ADF00672D10 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1686E12429F46ADF00672D10 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1686E0EE29F4662700672D10 /* Project object */;
+}
